@@ -15,6 +15,6 @@ npm run dev
 npm run build
 # 生成 dll文件
 npm build:dll
-
-
+# 记录
+http://note.youdao.com/noteshare?id=0b71ae84e49d78c42a1f6803652da1f6
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
