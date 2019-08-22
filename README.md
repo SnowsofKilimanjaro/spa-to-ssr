@@ -1,4 +1,4 @@
-# spassr
+# spa-to-ssr
 
 > spa to ssr
 
