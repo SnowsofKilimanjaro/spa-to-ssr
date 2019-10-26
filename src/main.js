@@ -7,7 +7,8 @@ import { createStore } from './store'
 import { createRouter } from './router'
 import {Button} from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-// 导出一个工厂函数，用于创建新的根实例：利用一个可重复执行的工厂函数，为每个请求创建新的应用程序实例，避免导致状态污染
+// 导出一个工厂函数，用于创建新的根实例：利用一个可重复执行的工厂函数，
+// 为每个请求创建新的应用程序实例，避免导致状态污染
 // 同样的规则使用于router、store
 Vue.use(Button)
 export function createApp () {

@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-            <el-button type="primary" size="mini">测试按需引入</el-button>
+            <el-button type="primary" size="mini">随便11</el-button>
     <h1>{{ msg }}</h1>
     <h2>Essential Links2</h2>
     <ul>
@@ -86,6 +86,10 @@
 
 <script>
 export default {
+  asyncData (store, route) { // 两个参数为store和当前路由信息，此函数会在组件实例化之前调用    对于不需要服务端渲染的数据，我们可以将其写在mounted钩子函数中
+    // 调用需要服务端渲染的数据 首屏请求的方法
+    console.log('执行asyncData方法')
+  },
   name: 'HelloWorld',
   data () {
     return {
